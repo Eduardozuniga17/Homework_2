@@ -68,7 +68,7 @@ public class HW1{
     public static void main(String[] args) throws IOException{
         Scanner sc = new Scanner(System.in);
 
-        /////////////////// problem 1
+        // problem 1
         File file = new File("src/inputDates.txt");
         //File file = new File("/home/kullu/Downloads/inputDates.txt");
         //parsedDates.txt.
