@@ -70,10 +70,9 @@ public class HW1{
 
         // problem 1
         File file = new File("src/inputDates.txt");
-        //File file = new File("/home/kullu/Downloads/inputDates.txt");
-        //parsedDates.txt.
-        File file_out = new File("src/parsedDates.txt");
-        // File file_out = new File("/home/kullu/Downloads/parsedDates.txt");
+
+            File file_out = new File("src/parsedDates.txt");
+            
         file_out.createNewFile();
 
 
@@ -81,8 +80,8 @@ public class HW1{
 
         String s;
         //String s = "March 1 1990";
-        //FileWriter myWriter =new FileWriter("/home/kullu/Downloads/parsedDates.txt");
-        FileWriter myWriter =new FileWriter("src/parsedDates.txt");
+
+            FileWriter myWriter =new FileWriter("src/parsedDates.txt");
 
         while((s=br.readLine())!=null)
         {
